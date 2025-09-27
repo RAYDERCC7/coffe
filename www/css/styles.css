@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+.logo {
+  color: #6f4e37;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+}
+
+button {
+  background: #6f4e37;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #4b3225;
+}
+
+p {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Menú inferior */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #6f4e37;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bottom-nav button:hover {
+  color: #ffdd99;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+/* Estilo de menú de cafés */
+.menu-cafe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.cafe-item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.cafe-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.cafe-item h3 {
+  margin: 5px 0;
+  color: #6f4e37;
+}
+
+.cafe-item p {
+  font-weight: bold;
+  color: #333;
+}
